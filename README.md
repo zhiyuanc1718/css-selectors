@@ -4,24 +4,17 @@
 
 It's tough being a clumsy pirate. You trip and fall all the time, your parrot flies into things, and occasionally (well, more than just occasionally) you even lose your treasure. Because of all of this, we have to be super careful so Blackbeard doesn't get even more mad at us. We were just sent on a mission to pick up some treasure found on the shore of a deserted island. Let's make sure we get all the gems in our treasure chest!
 
-
 ## Let's Get Started
 
 ### Step 1:
 
-Click `Open` at the top of this page to bring this lesson down so you can edit files in Nitrous.
-
-<img src="https://s3.amazonaws.com/after-school-assets/new-open-in-nitrous.png">
+Fork and clone this repo into your `basics` folder.
 
 ### Step 2:
 
-Open `index.html` in the browser by running in terminal `python -m SimpleHTTPServer 3000`. 
+Open and preview your `index.html` page.
 
-Once you have the server running, select `preview` and then `port 3000`.
-
-<img src="https://s3.amazonaws.com/after-school-assets/nitrous-preview.png" alt="nitrous preview">
-
-You're going to code your solution in `css/gems.css`. Go ahead and open that file in the Nitrous text editor, as well as `index.html`.
+You're going to code your solution in `css/gems.css`. Go ahead and open that file as well.
 
 ### Move the Ruby
 
@@ -108,13 +101,4 @@ Save your changes and refresh in the browser. Diamond done.  &#10003;
 
 ## Done and Done
 
-Lastly, you need to enter in terminal in Nitrous `learn submit`. This command will push your work to GitHub and mark this lesson as complete in Learn!
-
-## Share Share Share!
-Show of your work by taking a screenshot of your filled treasure box or code and share with **\#flatironcodeclub** and **\#dontloseyourgems**
-
-## Reminder 
-
-Don't forget to shut down your server by hitting `control` and `c` before you move on to other material!
-
-<a href='https://learn.co/lessons/hs-coding-club-css-selectors' data-visibility='hidden'>View this lesson on Learn.co</a>
+Make sure you `add`/`commit`/`push` and change your repo's settings to use the `master` branch for **gh-pages**.  Make sure you test the URL!
