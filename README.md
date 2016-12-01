@@ -45,7 +45,7 @@ Emeralds are pretty expensive so we should probably collect that gem next.
 
 If you look at the code in `index.html`, the `img` tag for the emerald has the class `emerald` defined, instead of an ID. We want to use that class as our CSS selector to move the emerald into the chest. Remember that classes can be used repeatedly in our code, so this would come in handy if there were several emeralds on the beach. We're just getting used to writing different selectors right now, so we're only going to have one emerald.
 
-In `css/gems.css`, you'll want to replace the text `/*selector for emerald goes here */` with the CSS selector, `.emerald`. The `.` tells CSS we're selecting a class. This selector is telling our CSS to find the content with the class `emerald` and to apply the specific styling to that image.
+In `css/gems.css`, you'll want to replace the text `/*selector for emerald goes here */` with the correct CSS selector that would select all elements in the `emerald` class. This selector is telling our CSS to find the content with the class `emerald` and to apply the specific styling to that image.
 
 Save the changes to `css/gems.css` and refresh in the browser. Emerald done. &#10003;
 
@@ -63,9 +63,7 @@ The sapphire is going to be pretty tricky to move. There aren't any IDs or class
 
 ```
 
-In order to select the sapphire image in our CSS, we can use what's called a descendant selector. In `css/gems.css` you'll want to replace the text `/*selector for sapphire goes here */ ` with `#sand img`. 
-
-`#sand img` is our CSS selector. This selector will first look for an HTML tag with the ID `sand`, and from there, look for the `img` child HTML element, and apply that styling to the `img`.
+In order to select the sapphire image in our CSS, we can use what's called a descendant selector. In `css/gems.css` you'll want to replace the text `/*selector for sapphire goes here */ ` with the selector that will first look for an HTML tag with the ID `sand`, and from there, look for the `img` child HTML element, and apply that styling to the `img`.
 
 Save your changes and refresh in the browser. Sapphire.  &#10003;
 
@@ -82,7 +80,7 @@ If you look a little more closely, you'll notice the `img` tag with the yellow d
 <img src="images/yellow-diamond-1.png" alt="yellow diamond">
 ```
 
-We can use a sibling CSS selector to move the yellow diamond. In `css/gems.css`, replace the text `/*selector for yellow diamond goes here */ ` with `#ocean + img`. This CSS selector will first look for an HTML tag with the id `ocean`, and then for an `img` tag immediately following. 
+We can use a sibling CSS selector to move the yellow diamond. This one is a little tricky, so we'll give you this one.  In `css/gems.css`, replace the text `/*selector for yellow diamond goes here */ ` with `#ocean + img`. This CSS selector will first look for an HTML tag with the id `ocean`, and then for an `img` tag immediately following. 
 
 Save your changes and refresh in the browser. Yellow diamond complete. &#10003;
 
@@ -95,7 +93,7 @@ We saved the hardest for last, this way if we get attacked now, we can run away 
 
 For an `img` tag, the `alt` attribute is "alternate text", which is text that will be displayed in the event that the image can't be loaded. We can use a CSS attribute selector to select the diamond.
 
-In `css/gems.css`, replace the text `/*selector for diamond goes here */ ` with `img[alt="Diamond"]`. This CSS selector is going to look for an `img` tag that has an `alt` attribute that is storing the text `Diamond`. We only have one `img` tag with that `alt` text, so we're good to go!
+This one is also tricky, so this is your last freebie.  In `css/gems.css`, replace the text `/*selector for diamond goes here */ ` with `img[alt="Diamond"]`. This CSS selector is going to look for an `img` tag that has an `alt` attribute that is storing the text `Diamond`. We only have one `img` tag with that `alt` text, so we're good to go!
 
 Save your changes and refresh in the browser. Diamond done.  &#10003;
 
